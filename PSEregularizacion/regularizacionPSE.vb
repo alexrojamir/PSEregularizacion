@@ -60,7 +60,7 @@ Public Class regularizacionPSE
             End Try
         End Using
     End Function
-
+    hola
 
 
 End Class
