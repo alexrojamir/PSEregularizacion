@@ -60,4 +60,7 @@ Public Class regularizacionPSE
             End Try
         End Using
     End Function
+
+
+
 End Class
