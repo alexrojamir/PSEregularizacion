@@ -73,6 +73,8 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Datos.vb" />
+    <Compile Include="Entidades.vb" />
     <Compile Include="regularizacionPSE.vb">
       <SubType>Form</SubType>
     </Compile>

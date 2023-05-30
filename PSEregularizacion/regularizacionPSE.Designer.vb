@@ -74,35 +74,34 @@ Partial Class regularizacionPSE
         '
         'txSerie
         '
-        Me.txSerie.Location = New System.Drawing.Point(74, 112)
+        Me.txSerie.Location = New System.Drawing.Point(273, 113)
         Me.txSerie.Name = "txSerie"
+        Me.txSerie.ReadOnly = True
         Me.txSerie.Size = New System.Drawing.Size(68, 20)
         Me.txSerie.TabIndex = 5
         '
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(344, 367)
+        Me.Label3.Location = New System.Drawing.Point(14, 116)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(97, 13)
         Me.Label3.TabIndex = 4
         Me.Label3.Text = "Tipo Comprobante:"
-        Me.Label3.Visible = False
         '
         'cbComprobante
         '
         Me.cbComprobante.FormattingEnabled = True
         Me.cbComprobante.Items.AddRange(New Object() {"Seleccione", "BOLETA", "FACTURA"})
-        Me.cbComprobante.Location = New System.Drawing.Point(447, 364)
+        Me.cbComprobante.Location = New System.Drawing.Point(117, 113)
         Me.cbComprobante.Name = "cbComprobante"
-        Me.cbComprobante.Size = New System.Drawing.Size(108, 21)
+        Me.cbComprobante.Size = New System.Drawing.Size(101, 21)
         Me.cbComprobante.TabIndex = 6
-        Me.cbComprobante.Visible = False
         '
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(14, 115)
+        Me.Label4.Location = New System.Drawing.Point(233, 116)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(34, 13)
         Me.Label4.TabIndex = 7
@@ -111,7 +110,7 @@ Partial Class regularizacionPSE
         'Label5
         '
         Me.Label5.AutoSize = True
-        Me.Label5.Location = New System.Drawing.Point(160, 115)
+        Me.Label5.Location = New System.Drawing.Point(361, 116)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(47, 13)
         Me.Label5.TabIndex = 9
@@ -119,16 +118,16 @@ Partial Class regularizacionPSE
         '
         'txNumero
         '
-        Me.txNumero.Location = New System.Drawing.Point(213, 112)
+        Me.txNumero.Location = New System.Drawing.Point(414, 113)
         Me.txNumero.Name = "txNumero"
         Me.txNumero.Size = New System.Drawing.Size(68, 20)
         Me.txNumero.TabIndex = 8
         '
         'btRegularizar
         '
-        Me.btRegularizar.Location = New System.Drawing.Point(287, 112)
+        Me.btRegularizar.Location = New System.Drawing.Point(17, 144)
         Me.btRegularizar.Name = "btRegularizar"
-        Me.btRegularizar.Size = New System.Drawing.Size(262, 20)
+        Me.btRegularizar.Size = New System.Drawing.Size(532, 23)
         Me.btRegularizar.TabIndex = 10
         Me.btRegularizar.Text = "Regularizar"
         Me.btRegularizar.UseVisualStyleBackColor = True
@@ -145,12 +144,12 @@ Partial Class regularizacionPSE
         'txRespuesta
         '
         Me.txRespuesta.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txRespuesta.Location = New System.Drawing.Point(17, 138)
+        Me.txRespuesta.Location = New System.Drawing.Point(17, 173)
         Me.txRespuesta.Multiline = True
         Me.txRespuesta.Name = "txRespuesta"
         Me.txRespuesta.ReadOnly = True
         Me.txRespuesta.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.txRespuesta.Size = New System.Drawing.Size(532, 226)
+        Me.txRespuesta.Size = New System.Drawing.Size(532, 198)
         Me.txRespuesta.TabIndex = 12
         '
         'btExplorar
@@ -166,7 +165,7 @@ Partial Class regularizacionPSE
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(565, 376)
+        Me.ClientSize = New System.Drawing.Size(565, 383)
         Me.Controls.Add(Me.btExplorar)
         Me.Controls.Add(Me.txRespuesta)
         Me.Controls.Add(Me.btNuevo)
